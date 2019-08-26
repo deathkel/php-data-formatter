@@ -1,0 +1,27 @@
+{
+  "name": "deathkel/php-data-formatter",
+  "description": "Data formatter for iterator",
+  "homepage": "https://github.com/deatkel/php-data-formatter",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "KEL"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "version":"0.0.1",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.1-dev"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Deathkel\\DataFormatter\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}

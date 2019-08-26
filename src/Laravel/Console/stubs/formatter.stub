@@ -1,0 +1,20 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\Lib\ApiFormatter\Formatter;
+use App\Lib\ApiFormatter\Type;
+
+class DummyClass extends Formatter
+{
+    protected static $fields = [];
+
+    protected static function item($key, $item, $type, &$info = null, $extra = [])
+    {
+        switch ($key){
+            default:
+                $item = parent::item($key, $item, $type, $info, $extra);
+        }
+        return  $item;
+    }
+}
